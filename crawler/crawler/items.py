@@ -12,7 +12,9 @@ class CrawlerItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field() 
     title = scrapy.Field()
-    author_time = scrapy.Field()
+    date_time = scrapy.Field()
+    author = scrapy.Field()
     content = scrapy.Field()
     image_source = scrapy.Field()
     video_source = scrapy.Field()
+    article_url = scrapy.Field()
