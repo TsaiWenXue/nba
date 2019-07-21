@@ -13,6 +13,6 @@ from django.core.wsgi import get_wsgi_application
 
 from dj_static import Cling
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'nba.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'nba.prod_settings')
 
 application = Cling(get_wsgi_application())
