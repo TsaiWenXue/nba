@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class Nba(models.Model):
+class NBA(models.Model):
     title = models.TextField()
     date_time = models.CharField(max_length=16)
     author = models.TextField()
