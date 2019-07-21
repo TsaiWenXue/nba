@@ -8,5 +8,6 @@ class Nba(models.Model):
     content = models.TextField()
     image_source = models.URLField(null=True)
     video_source = models.URLField(null=True)
+    article_url = models.URLField(unique=True)
     
 
