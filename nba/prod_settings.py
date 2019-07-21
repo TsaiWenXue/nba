@@ -11,7 +11,7 @@ SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 ALLOWED_HOSTS = ['*']
 
 CORS_ORIGIN_WHITELIST = [
-    "https://vue-nba.herokuapp.com/",
+    "https://vue-nba.herokuapp.com",
 ]
 
 DEBUG = False
